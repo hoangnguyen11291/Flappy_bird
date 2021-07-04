@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-image: url(https://st.quantrimang.com/photos/image/2019/04/24/multiplebackground-1.jpg);
+}
+
+#name {
+  padding-left: 30vh;
+  padding-top: 5vh;
+}
+
+#banner {
+  padding-left: 54vh;
+  padding-top: 5vh;
+  font-size: 110px;
+  font-family: "Tourney", cursive;
+  background: #cf2eaf;
+  background: -webkit-linear-gradient(
+    to right,
+    #cf2eaf 0%,
+    #1fff87 50%,
+    #345dcf 100%
+  );
+  background: -moz-linear-gradient(
+    to right,
+    #cf2eaf 0%,
+    #1fff87 50%,
+    #345dcf 100%
+  );
+  background: linear-gradient(to right, #cf2eaf 0%, #1fff87 50%, #345dcf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#game {
+  max-width: 80vw;
+  max-height: 80vh;
+  padding-top: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(37, 192, 115);
+}
+
+#canvas {
+  max-width: 80%;
+}
+
+#right-banner {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#button {
+  width: 20vw;
+  height: 5vh;
+  font-size: 25px;
+  color: rgb(37, 192, 115);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
